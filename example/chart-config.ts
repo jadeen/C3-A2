@@ -44,9 +44,7 @@ export class chartConfig{
         this.chart['size']['height'] = height;
     }
 
-    setPadding(direction:string, value:number){
-        this.chart['padding'][direction.toString()] = value;
-    }
+    setPadding(direction:string, value:number){this.chart['padding'][direction.toString()] = value;}
 
     setTransition(value:number){
         this.chart['transition'] = {
@@ -65,6 +63,8 @@ export class chartConfig{
     addDataEvent(nom:string, action:eventC3){
         this.data[nom.toString()] = action;
     }
+
+    
 
     getBuild(){
         if (this.realTime != undefined) {

@@ -1,6 +1,4 @@
-System.register(['./chart-data', './chart-config', './chart-directive/chart-directive'], function(exports_1, context_1) {
-    "use strict";
-    var __moduleName = context_1 && context_1.id;
+System.register(['./chart-data', './chart-config', './chart-directive/chart-directive'], function(exports_1) {
     function exportStar_1(m) {
         var exports = {};
         for(var n in m) {

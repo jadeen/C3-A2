@@ -33,9 +33,7 @@ System.register([], function(exports_1) {
                     }
                     this.chart['size']['height'] = height;
                 };
-                chartConfig.prototype.setPadding = function (direction, value) {
-                    this.chart['padding'][direction.toString()] = value;
-                };
+                chartConfig.prototype.setPadding = function (direction, value) { this.chart['padding'][direction.toString()] = value; };
                 chartConfig.prototype.setTransition = function (value) {
                     this.chart['transition'] = {
                         duration: value

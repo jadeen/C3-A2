@@ -1,6 +1,4 @@
-System.register(['angular2/core'], function(exports_1, context_1) {
-    "use strict";
-    var __moduleName = context_1 && context_1.id;
+System.register(['angular2/core'], function(exports_1) {
     var core_1;
     var chartData;
     return {
@@ -48,7 +46,7 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                     }
                 };
                 return chartData;
-            }());
+            })();
             exports_1("chartData", chartData);
         }
     }
